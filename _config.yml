@@ -2,7 +2,7 @@
 title: PITPLE
 email: biz@pitple.com
 description: PITPLE Inc.
-baseurl: "" # the subpath of your site, e.g. /blog/
+baseurl: "/jekyll-pitple" # the subpath of your site, e.g. 
 url: "" # the base hostname & protocol for your site
 
 twitter_username:
@@ -11,7 +11,7 @@ github_username:
 # Build settings
 markdown: kramdown
 
-exclude: [publish.sh]
+exclude: [.gitignore publish.sh]
 include: [.nojekyll]
 
 # Gems

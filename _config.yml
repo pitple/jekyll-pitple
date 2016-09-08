@@ -1,7 +1,7 @@
 # Site settings
 title: PITPLE
 email: biz@pitple.com
-description: PITPLE Inc.
+description: PITPLE Inc. Homepage
 baseurl: "/jekyll-pitple" # the subpath of your site, e.g. 
 url: "" # the base hostname & protocol for your site
 
@@ -9,9 +9,10 @@ twitter_username:
 github_username:
 
 # Build settings
+timezone: Asia/Seoul
 markdown: kramdown
 
-exclude: [.gitignore publish.sh]
+exclude: [.gitignore, README.md, publish.sh]
 include: [.nojekyll]
 
 # Gems

@@ -1,0 +1,20 @@
+# Site settings
+title:
+email:
+description: 
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
+
+twitter_username:
+github_username:
+
+# Build settings
+markdown: kramdown
+
+gems:
+  - github-pages
+  - jekyll-multiple-languages-plugin
+
+# jekyll-multiple-languages-plugin
+languages: ["en", "ko"]
+exclude_from_localizations: ["javascript", "images", "css"]

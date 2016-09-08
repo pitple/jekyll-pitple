@@ -1,7 +1,7 @@
 # Site settings
-title:
-email:
-description: 
+title: PITPLE
+email: biz@pitple.com
+description: PITPLE Inc.
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "" # the base hostname & protocol for your site
 
@@ -11,6 +11,10 @@ github_username:
 # Build settings
 markdown: kramdown
 
+exclude: [publish.sh]
+include: [.nojekyll]
+
+# Gems
 gems:
   - github-pages
   - jekyll-multiple-languages-plugin
